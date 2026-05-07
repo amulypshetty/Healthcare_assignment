@@ -5,7 +5,7 @@ const {
 } = require("../models/prescriptionModel");
 
 
-// CREATE PRESCRIPTION
+
 const addPrescription = (req, res) => {
 
     const doctor_id = req.user.id;
@@ -37,7 +37,7 @@ const addPrescription = (req, res) => {
 };
 
 
-// PATIENT VIEW
+
 const patientPrescriptions = (req, res) => {
 
     const patient_id = req.user.id;
@@ -56,7 +56,7 @@ const patientPrescriptions = (req, res) => {
 };
 
 
-// DOCTOR VIEW
+
 const doctorPrescriptions = (req, res) => {
 
     const doctor_id = req.user.id;
