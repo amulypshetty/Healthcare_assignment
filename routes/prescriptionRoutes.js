@@ -13,7 +13,7 @@ const {
 } = require("../controllers/prescriptionController");
 
 
-// DOCTOR CREATE
+
 router.post(
     "/create",
     verifyToken,
@@ -22,7 +22,7 @@ router.post(
 );
 
 
-// PATIENT VIEW
+
 router.get(
     "/patient",
     verifyToken,
@@ -31,7 +31,7 @@ router.get(
 );
 
 
-// DOCTOR VIEW
+
 router.get(
     "/doctor",
     verifyToken,
