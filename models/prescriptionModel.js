@@ -1,7 +1,7 @@
 const db = require("../config/db");
 
 
-// CREATE PRESCRIPTION
+
 const createPrescription = (
     doctor_id,
     patient_id,
@@ -25,7 +25,7 @@ const createPrescription = (
 };
 
 
-// GET PATIENT PRESCRIPTIONS
+
 const getPatientPrescriptions = (
     patient_id,
     callback
@@ -40,7 +40,7 @@ const getPatientPrescriptions = (
 };
 
 
-// GET DOCTOR PRESCRIPTIONS
+
 const getDoctorPrescriptions = (
     doctor_id,
     callback
